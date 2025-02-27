@@ -26,7 +26,7 @@ Or download it as a **ZIP file** and extract it.
 
 ### 📂 Load the Extension
 1. Click **Load unpacked**.
-2. Select the folder where you cloned/extracted the repository.
+2. Select the **speed-changer** folder in the cloned folder
 3. The extension should now appear in your extensions list.
 
 ### ▶️ Using the Extension
