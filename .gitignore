@@ -23,7 +23,6 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
-*.git
 
 # Windows shortcuts
 *.lnk
