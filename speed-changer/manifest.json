@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Speed Controller",
+    "version": "1.0",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["*://*/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+      }
+}
